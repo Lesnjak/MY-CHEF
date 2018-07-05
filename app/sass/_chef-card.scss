@@ -1,0 +1,599 @@
+.chef-cart{
+  background-color: #f6f6f6;
+}
+.name-rate{
+  display: flex;
+  align-items: center;
+  .name-chef{
+    font-family: Robot-bol, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+  }
+  .rating{
+    margin-bottom: 10px;
+
+  }
+  .icon{
+    position: relative;
+    padding-left: 20px;
+    &:before{
+      position: absolute;
+      content:"";
+      background-image: url(../img/chef-card/head.png);
+      width: 18px;
+      height: 17px;
+      left:-4px;
+      top: 1px;
+
+    }
+  }
+}
+.cart-box{
+  display: flex;
+  justify-content: space-between;
+
+  .slider{
+    width: 654px;
+.slider-big{
+  .next{
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+  }
+  .prev{
+    right: 30px;
+    z-index: 100;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+  }
+  .big{
+
+    .sli{
+      background-position: center;
+      -webkit-background-size: cover;
+      background-size: cover;
+      height: 450px;
+      background-color: #fff;
+    }
+  }
+
+}
+    .slider-small{
+      margin-top: 16px;
+
+      .small{
+        margin: 0 -10px;
+        .slick-slide{
+          margin: 0 10px;
+        }
+       .sli{
+         background-position: center;
+         -webkit-background-size: cover;
+         background-size: cover;
+         width: 205px;
+         height: 205px;
+         position: relative;
+         cursor: pointer;
+
+       }
+         .slick-current{
+           .sli:before{
+             position: absolute;
+             content: "";
+             top: 0;
+             right: 0;
+             left: 0;
+             bottom: 0;
+             background-color: rgba(255,255,255, 0.5);
+             z-index: 100;
+           }
+         }
+      }
+    }
+  }
+  .favorite-cart .favorite-content .list-block li:first-child {
+    border-top:none;
+  }
+  .favorite-cart{
+
+    background-color: #fff;
+    width: 490px;
+    margin: 0;
+    display: flex;
+.favorite-content{
+  padding: 20px 30px;
+}
+    .prize{
+      display: flex;
+      flex-wrap: wrap;
+      div{
+        width: 50px;
+        height: 50px;
+        margin-right:20px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        img{
+          height: 100%;
+
+        }
+      }
+    }
+    .cart-title{
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .rating{
+      display: flex;
+      align-items: center;
+      .fa-star{
+        color: #ffb400;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+      }
+      .fa-star-o{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+      }
+      .volume{
+        margin-left: 5px;
+        color: #ffb400;
+      }
+    }
+    .list-block{
+      padding-bottom: 20px;
+      font-size: 16px;
+      li{
+
+        display: flex;
+        align-items: center;
+        border: none;
+        padding-bottom: 0;
+
+        p{
+          margin-right: 5px;
+          font-size: 16px;
+        }
+      }
+
+    }
+    .buttons1{
+      display: flex;
+    .button-red-black{
+      margin: 0;
+      border: 1px solid $red;
+      color: $red;
+      margin-right: 20px;
+      &:hover{
+        color: #fff;
+      }
+
+    }
+
+        label{
+          cursor: pointer;
+          border-radius: 50%;
+          width: 42px;
+          height: 42px;
+          right: 20px;
+          bottom: 20px;
+          background-color: #fff;
+          border: 1px solid $red;
+          z-index: 2;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-image: url(../img/chef-card/hurt.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          transition: 0.3s;
+          img{
+            transition: 0.3s;
+          }
+          input{
+            display: none;
+          }
+
+          &:hover{
+            background-color: $red;
+            background-image: url(../img/chef-card/hurtW.png);
+          }
+        }
+        .like{
+          background-color: $red;
+          background-image: url(../img/chef-card/hurtW.png);
+          &:hover{
+            background-color: #fff;
+            background-image: url(../img/chef-card/hurt.png);
+          }
+        }
+
+    }
+    .sphere{
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      padding: 15px 0 ;
+    }
+    .buttons2{
+      .button-red-black{
+        margin: 0;
+        border: 1px solid $red;
+        color: $red;
+        line-height: 30px;
+        padding: 0 15px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        &:hover{
+          color: #fff;
+        }
+      }
+    }
+    .text{
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+}
+
+
+//tabs//////////////
+
+.chef-tabs{
+.tabs{
+  padding-top: 20px;
+  background-color: #f6f6f6;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  .d{
+    display: flex;
+  }
+  label{
+    width: 165px;
+    height: 39px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+     color: $red;
+    }
+  }
+}
+  #food:checked ~ .tabs label[for='food']{
+    color: $red;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+  }
+  #voices:checked ~ .tabs label[for='voices']{
+       background-color: #fff;
+       color: $red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+     }
+
+  .food-block{
+
+    display: none;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    background-color: #fff;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    &:before{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: "";
+      background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(237,237,237,0.8) 100%);
+
+    }
+    .continue-box-catalog{
+      position: relative;
+    }
+
+  }
+  .more-box{
+    position: relative;
+  }
+}
+.chef-voices{
+  display: none;
+  background-color: #f6f6f6;
+  position: relative;
+  z-index: 10;
+  padding-bottom:60px;
+
+}
+.voice-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  .voice-block{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    width: 654px;
+
+    background-color: #fff;
+    ul{
+      li{
+        list-style: none;
+        border-bottom: 2px solid #f0f0f0;
+        padding: 30px;
+
+
+        .voice-text{
+          color: #666666;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+        .data-text{
+          color: #a6a6a6;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        ul{
+          li{
+            border-bottom: none;
+            border-top: 2px solid #f0f0f0;
+            padding-bottom: 0;
+            padding-top: 20px;
+            margin-top: 20px;
+            .data-text{
+              padding-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .voice-form-block{
+
+    padding: 48px 30px;
+    width: 490px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    p{
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 18px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    form{
+      .block-input{
+        label{
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 21px;
+          display: block;
+          padding:10px 30px;
+
+        }
+        input{
+          border-radius: 25px;
+          border: 1px solid #e6e6e6;
+          background-color: #ffffff;
+          outline: none;
+          width: 100%;
+          height: 50px;
+          padding: 0 30px;
+
+        }
+        textarea{
+          max-width: 100%;
+          max-height: 200px;
+          min-width: 100%;
+          min-height: 120px;
+          border-radius: 25px;
+          border: 1px solid #e6e6e6;
+          background-color: #ffffff;
+          padding: 30px;
+          margin-bottom: 20px;
+          outline: none;
+        }
+        input[type="submit"]{
+          width: 230px;
+          height: 40px;
+          border-radius: 20px;
+          background-color: #ed1b23;
+          display: block;
+          margin: auto;
+          color: #ffffff;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 36px;
+          text-transform: uppercase;
+          transition: 0.3s;
+          border: 1px solid $red;
+          &:hover{
+            background-color: #fff;
+            color:$red;
+          }
+        }
+      }
+    }
+    .rating1{
+
+    }
+  }
+}
+.more-box{
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+  .button-more{
+    border-radius: 25px;
+    border: 1px solid #cccccc;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 30px 15px 60px;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.3s;
+
+    &:before{
+      position: absolute;
+      content: "";
+      background-image: url(../img/chef-card/cirk.png);
+      width: 22px;
+      height: 19px;
+      background-position: center;
+      left: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: 0.3s;
+      background-repeat: no-repeat;
+    }
+    &:hover{
+      background-color: $red;
+      border: 1px solid $red;
+      color: #fff;
+
+    }
+    &:hover:before{
+      background-image: url(../img/chef-card/cirk1.png);
+      transition: 0.3s;
+    }
+  }
+
+}
+@media (max-width: 1200px ){
+  .chef-cart .cart-box .slider {
+    width: 500px;
+    margin-right: 10px;
+  }
+ .voice-box .voice-block ul li .name-rate {
+    display: block;
+  }
+ .voice-box .voice-block {
+    width: 500px;
+    margin-right: 10px;
+  }
+
+  .chef-cart .cart-box .slider .slider-small .small .sli {
+    width: 152px;
+    height: 152px;
+  }
+  .chef-cart .cart-box .slider .slider-big .big .sli {
+    height: 345px;
+  }
+}
+@media (max-width: 993px ){
+ .voice-box {
+    display: block;
+  }
+  .voice-box .voice-block {
+    width: 100%;
+    margin-right:0;
+  }
+ .voice-box .voice-form-block {
+    width: 100%;
+  }
+  .chef-cart .cart-box .slider {
+    width: 100%;
+  }
+  .chef-cart .cart-box .slider .slider-small {
+    display: none;
+  }
+  .chef-cart .cart-box .favorite-cart {
+ box-shadow: none;
+    width: 100%;
+  }
+
+  .chef-cart {
+    .container{
+      padding: 0;
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+
+    .cart-box {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+
+    }
+  }
+}
+@media (max-width: 480px ){
+  .chef-cart .cart-box .slider .slider-big .big .sli {
+    height: 250px;
+  }
+  .continue .continue-box {
+    display: block;
+  }
+  .continue .continue-box .favorite-cart {
+   margin:10px auto;
+  }
+  .chef-cart{
+    padding: 0;
+  }
+  .chef-voices{
+    padding-bottom: 0;
+  }
+  .chef-cart .cart-box .favorite-cart .cart-title {
+    font-size: 20px;
+  }
+  .chef-tabs .tabs .container{
+    padding: 0;
+    margin: 0;
+  }
+  .chef-voices .container {
+    padding: 0;
+    margin: 0;
+  }  .chef-voices .container .row {
+    padding: 0;
+    margin: 0;
+  }
+  .chef-tabs .tabs label {
+    width: 150px;
+  }
+}
+#food:checked  ~ .food-block{
+  display: block;
+}
+#voices:checked ~ .food-block{
+  display: none;
+}
+#food:checked  ~ .chef-voices{
+  display: none;
+}
+#voices:checked ~ .chef-voices{
+  display: block;
+}
+

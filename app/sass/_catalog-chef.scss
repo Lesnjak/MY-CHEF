@@ -1,0 +1,37 @@
+.chefs-reccomand{
+  h3{
+    color: $red;
+    font-family:Robot-bol, sans-serif;
+    text-align: center;
+  }
+  .line{
+    height: 5px;
+    background-color:$red;
+    margin:15px 20px 30px 15px;
+  }
+  .favorite-cart .favorite-content {
+    padding: 20px 20px 0px 20px;
+  }
+  .favorite-cart .favor-img {
+    height: 260px;
+
+  }
+}
+.chefs-continue{
+  padding-top: 0;
+  background-color:#f6f6f6;
+}
+.chef-filter{
+  padding-bottom: 0px;
+}
+.catalog-filter .food-filter .catalog-sort-chefs .favorite-cart .favor-img {
+  height: 260px;
+}
+.chefs-continue .continue-box-catalog-chefs .favorite-cart .favor-img{
+  height: 260px;
+}
+@media (max-width: 1200px) {
+  .chefs-reccomand .all-carts .favorite-cart:last-child{
+    display: none;
+  }
+}

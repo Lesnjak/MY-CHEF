@@ -1,0 +1,31 @@
+#map-canvas {
+  height: 100%;
+}
+.list-block a{
+  display: block;
+}
+.wrap-map{
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+#panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+}
+.search-button{
+  background-color: #fff;
+  border: 1px solid grey;
+  height: 22px;
+  transition: 0.3s;
+  &:hover{
+    background-color: red;
+    color: #fff;
+  }
+}

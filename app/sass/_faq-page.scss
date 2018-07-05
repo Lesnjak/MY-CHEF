@@ -1,0 +1,91 @@
+$red:#ed1b24;
+$black:#010101;
+.about-block-main-red {
+  padding: 90px 0 10px;
+  background-color: #ed1c24;
+  h1{
+
+  }
+}
+.faq{
+  position: relative;
+  &:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.6);
+  }
+  .faq-box{
+    position: relative;
+    .list{
+      position: relative;
+      background-color: #fff;
+      margin-bottom: 2px;
+
+      .add{
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border:1px solid #f4f4f4;
+        position: absolute;
+        cursor: pointer;
+        div{
+          position: absolute;
+          height: 2px;
+          width: 16px;
+          background-color: $red;
+          top: 15px;
+          left: 7px;
+          transition: 0.3s;
+          &:last-child{
+            transform: rotate(90deg);
+          }
+        }
+      }
+      .faq-title{
+        font-family:Robot-med, sans-serif;
+        font-size: 16px;
+        line-height: 21px;
+        padding: 22px 65px 22px 30px;
+
+
+      }
+      .faq-content{
+        display: none;
+        font-family:Robot-reg, sans-serif;
+        font-size: 16px;
+        line-height: 21px;
+        padding: 0 60px 22px;
+      }
+       .add-minus{
+        div{
+          position: absolute;
+          height: 2px;
+          width: 16px;
+          background-color: $black;
+          top: 15px;
+          left: 7px;
+          &:last-child{
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 768px) {
+  .faq .faq-box .list .faq-content {
+
+    padding: 0 30px 22px;
+  }
+  .faq .faq-box {
+   margin: 0 10px;
+}
+}

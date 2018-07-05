@@ -1,0 +1,192 @@
+////.datepicker {
+////  position: absolute;
+////  top: 50%;
+////  left: 50%;
+////  margin-top: -100px;
+////  margin-left: -135px;
+////  width: 270px;
+////  height: 200px;
+////  background-color: white;
+////  text-align: center;
+////  font-family: Verdana;
+////  border: 1px solid #ccc;
+////  border-radius: 4px;
+////  -webkit-box-shadow: 0px 0px 10px 0px rgba(51,51,51,0.75);
+////  -moz-box-shadow: 0px 0px 10px 0px rgba(51,51,51,0.75);
+////  box-shadow: 0px 0px 10px 0px rgba(51,51,51,0.75);
+////}
+////.block {
+////  display: inline-block;
+////  border: 1px solid #aaa;
+////  width: 60px;
+////  height: 30px;
+////  text-align: center;
+////  font-size: 18px;
+////  line-height: 30px;
+////  margin: 5px 5px;
+////}
+////.middle {
+////  margin: 0px 5px;
+////  /*background-color: lightblue;
+////  -webkit-box-shadow: inset 0px 0px 5px 0px #808080;
+////  -moz-box-shadow: inset 0px 0px 5px 0px #808080;
+////  box-shadow: inset 0px 0px 5px 0px #808080;*/
+////}
+////.label {
+////  margin-top: 5px;
+////  margin-bottom: 10px;
+////  height: 25px;
+////  line-height: 25px;
+////  border-bottom: 2px solid #207ce5;
+////  /*color: #207ce5;
+////  font-weight: bold;*/
+////}
+////.action {
+////  cursor: pointer;
+////}
+////.action-row {
+////  margin-top: 10px;
+////  border-top: 1px solid #aaa;
+////}
+////.action-row div{
+////  display: inline-block;
+////  width: 85px;
+////  height: 30px;
+////  line-height: 30px;
+////  border-right: 1px solid #aaa;
+////}
+////.action-row div:last-child{
+////  border-right: none;
+////}
+//@import url('https://fonts.googleapis.com/css?family=Ubuntu&subset=latin-ext');
+//body {
+//  background: linear-gradient(to left, #69ADCE, #7FC8D8);
+//  font-family: 'Ubuntu', sans-serif;
+//  display: flex;
+//  justify-content: center;
+//  align-items: center;
+//}
+//
+//html, body{
+//  height: 100%;
+//}
+//
+//.date {
+//  width: 300px;
+//  height: auto;
+//  background: white;
+//  padding: 20px;
+//  position: relative;
+//  float: left;
+//  &:after{
+//    content: "";
+//    width: 100%;
+//    height: 100%;
+//    position: absolute;
+//    top: 30px;
+//    left: 0;
+//    z-index: -1;
+//    filter: blur(10px);
+//    background-color: rgba(0, 0, 0, 0.15);
+//  }
+//}
+//.date .ay {
+//  border-bottom: solid 1px #d4d4d8;
+//  overflow: hidden;
+//  display: flex;
+//  justify-content: space-between;
+//  padding-bottom: 10px;
+//
+//}
+//.ay .ay-prev {
+//  a {
+//
+//    img{
+//      width: 15px;
+//      padding-top: 2px;
+//    }
+//
+//  }
+//}
+//.date .ay .ay-name {
+//
+//  a {
+//    text-decoration: none;
+//    color: black;
+//    font-size: 17px;
+//  }
+//}
+//.date .ay .ay-next {
+//  a {
+//    img{
+//      width: 15px;
+//      padding-bottom: 2px;
+//      transform: rotate(180deg);
+//    }
+//  }
+//}
+//.date .gunler {
+//  width: 300px;
+//  height: 24px;
+//  float: left;
+//  color: white;
+//  letter-spacing: 34px;
+//  line-height: 2.6;
+//  padding-left: 20px;
+//  font-size: 13px;
+//}
+//.date .gun {
+//  width: 33px;
+//  height: 33px;
+//  border-radius: 35px;
+//  float: left;
+//  margin-left: 7px;
+//  margin-right: 2px;
+//  margin-top: 5px;
+//  text-align: center;
+//  font-size: 13px;
+//  letter-spacing: -0.5px;
+//  line-height: 2.6;
+//}
+//.date .gun2 {
+//  width: 33px;
+//  height: 33px;
+//  background-color: red;
+//  opacity: .0;
+//  border-radius: 35px;
+//  float: left;
+//  margin-left: 7px;
+//  margin-right: 2px;
+//  margin-top: 5px;
+//  text-align: center;
+//  font-size: 13px;
+//  letter-spacing: -0.5px;
+//  line-height: 2.6;
+//}
+//.gun a {
+//  color: #728da5;;
+//  text-decoration: none;
+//  display: block;
+//}
+//.date-active {
+//  border: solid 2px #BB5388;
+//  border-radius: 35px;
+//  box-sizing: border-box;
+//  a {
+//    color: black;
+//    margin-top: -2px;
+//  }
+//}
+//.date-tam {
+//  background-color: #BB5388;
+//  a {
+//    color: black;
+//  }
+//}
+//.date-yarim {
+//  background-color: #EE5722;
+//  a {
+//    color: white;
+//  }
+//}
+//

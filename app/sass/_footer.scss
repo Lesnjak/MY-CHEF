@@ -1,0 +1,122 @@
+.footer{
+  background-color: #222;
+  color: #fff;
+  .footer-box{
+    display: flex;
+    justify-content: space-between;
+    .scroll-box{
+      width: 75%;
+      line-height: 23px;
+      font-size: 16px;
+      font-family: Robot-reg, sans-serif;
+      .scroll-title{
+        font-family:Robot-bol, sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      .scroll-container{
+        height: 125px;
+        overflow: auto;
+        .scroll-text{
+          width: 95%;
+          overflow: hidden;
+
+        }
+      }
+    }
+    ul{
+      display: inline;
+      margin-left: 30px;
+      li{
+        list-style: none;
+        margin-bottom: 19px;
+        a{
+          color: #fff;
+          font-size: 16px;
+          font-family:Robot-reg, sans-serif;
+          text-transform: uppercase;
+          transition: 0.3s;
+          &:hover{
+            color: $red;
+          }
+
+
+        }
+      }
+    }
+
+  }
+  .brand{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1400px) {
+  .footer {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    .footer-box {
+
+      .social-box {
+
+      }
+    }
+  }
+}
+.social-box{
+  margin-top: -5px;
+  p{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family:Robot-bol, sans-serif;
+  }
+  .social{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    a{
+      i{
+        font-size: 20px;
+        color: #fff;
+        transition:0.3s ;
+        &:hover{
+          color: $red;
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 1200px) {
+  .footer .footer-box .scroll-box {
+    width: 65%;
+    line-height: 23px;
+    font-size: 16px;
+    font-family: Robot-reg,sans-serif;
+  }
+}
+@media (max-width: 768px) {
+.footer{
+  padding-left: 15px;
+  padding-top: 25px;
+  padding-right: 15px;
+
+
+}
+  .footer .footer-box .scroll-box {
+    width: 100%;
+    line-height: 23px;
+    font-size: 16px;
+    font-family: Robot-reg,sans-serif;
+    margin-bottom: 30px;
+  }
+  .footer .footer-box {
+flex-wrap: wrap;
+  }
+  .footer .footer-box ul {
+    display: inline;
+    margin-left: 0;
+  }
+}

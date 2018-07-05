@@ -1,0 +1,227 @@
+/* ----------------------------------------------------------------------------- 
+
+  jQuery DateTimePicker - Responsive flat design jQuery DateTime Picker plugin for Web & Mobile
+  Version 0.1.38
+  Copyright (c)2017 Lajpat Shah
+  Contributors : https://github.com/nehakadam/DateTimePicker/contributors
+  Repository : https://github.com/nehakadam/DateTimePicker
+  Documentation : https://nehakadam.github.io/DateTimePicker
+
+ ----------------------------------------------------------------------------- */
+ 
+.dtpicker-overlay
+{
+	display:none;
+}
+
+.dtpicker-mobile
+{
+	position: absolute;
+	width: 300px;
+	box-shadow: 0 0 10px rgba(0,0,0,.05);
+	border-radius: 10px;
+	z-index: 100;
+	left: -50%;
+}
+
+.dtpicker-overlay * 
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.dtpicker-content
+{
+	margin: 0 auto;
+	padding: 1em 0;
+	max-width: 500px;
+	background-color: rgba(255,255,255, 0.5);
+}
+
+
+
+.dtpicker-subcontent
+{
+	position: relative;
+}
+
+.dtpicker-header
+{
+	margin: 0.2em 1em;
+}
+
+.dtpicker-header .dtpicker-title
+{
+	color: #000;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.dtpicker-header .dtpicker-close
+{
+	position: absolute;
+	top: -0.7em;
+	right: 0.3em;
+	padding: 0.5em 0.5em 1em 1em;
+	color: #ed1c24;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.dtpicker-header .dtpicker-close:hover
+{
+	color: #ed1c24;
+}
+
+.dtpicker-header .dtpicker-value
+{
+	padding:  0.8em 0.2em 0.2em 0.2em;
+	color: #ed1c24;
+	font-size: 20px;
+}
+
+.dtpicker-components
+{
+	overflow: hidden;
+	margin: 1em 1em;
+	font-size: 1.3em;
+}
+
+.dtpicker-components *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.dtpicker-components .dtpicker-compOutline
+{
+	display: inline-block;
+
+}
+
+.dtpicker-comp2
+{
+	width: 50%;
+}
+
+.dtpicker-comp3
+{
+	width: 33.3%;
+}
+
+.dtpicker-comp4
+{
+	width: 25%;
+}
+
+.dtpicker-comp5
+{
+	width: 16%;
+}
+
+.dtpicker-comp6
+{
+	width: 16.66%;
+}
+
+.dtpicker-comp7
+{
+	width: 14.285%;
+}
+
+.dtpicker-components .dtpicker-comp
+{
+	margin: 2%;
+	text-align: center;
+}
+
+.dtpicker-components .dtpicker-comp > *
+{
+	display: block;
+	height: 30px;
+
+	color: #000;
+
+	text-align: center;
+	line-height: 30px;
+}
+
+.dtpicker-components .dtpicker-comp > *:hover
+{
+	color: #ed1c24;
+}
+
+.dtpicker-components .dtpicker-compButtonEnable
+{
+	opacity: 1;
+}
+
+.dtpicker-components .dtpicker-compButtonDisable
+{
+	opacity: 0.5;
+}
+
+.dtpicker-components .dtpicker-compButton
+{
+	background: #FFFFFF;
+	font-size: 140%;
+
+	cursor: pointer;
+}
+
+.dtpicker-components .dtpicker-compValue
+{
+	margin: 0.4em 0;
+	width: 100%;
+	border: none;
+	background: #FFFFFF;
+	font-size: 14px;
+
+}
+
+.dtpicker-overlay .dtpicker-compValue:focus
+{
+	outline: none;
+	background: #F2FCFF;
+}
+
+.dtpicker-buttonCont
+{
+	overflow: hidden;
+	margin: 0.2em 1em;
+}
+
+.dtpicker-buttonCont .dtpicker-button
+{
+	display: block;
+	padding: 0 15px;
+	background: #ed1c24;
+	cursor: pointer;
+	border-radius: 30px;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 36px;
+	text-transform: uppercase;
+	border: 1px solid #ed1c24;
+	transition: 0.3s;
+
+}
+
+.dtpicker-buttonCont .dtpicker-button:hover
+{
+	color: #ed1c24;
+	background-color: #fff;
+}
+
+.dtpicker-singleButton .dtpicker-button
+{
+	margin: 0.2em auto;
+}
+
