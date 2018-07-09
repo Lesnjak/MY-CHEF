@@ -2976,4 +2976,6 @@ var DateFormatter;
         return special.settings.adjustOldDeltas && orgEvent.type === 'mousewheel' && absDelta % 120 === 0;
     }
 
+
+
 }));

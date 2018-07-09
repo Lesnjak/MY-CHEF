@@ -1,129 +1,130 @@
 "use strict";
 $(document).ready(function( ) {
 
-    $(".time1").datetimepicker({
-        format: 'Y-m-d g:i a'
-    });
-    $(".productQuantity-box").click(function(e) {
-        var offset = $(this).offset();
-        var relativeX = (e.pageX - offset.left- $('.xdsoft_datetimepicker').width()/2);
-        var relativeY = (e.pageY - offset.top+50);
-        $('.xdsoft_datetimepicker').css({"top":relativeY, "left":relativeX});
-        console.log("X: " + relativeX + "  Y: " + relativeY);
-    });
 
 
 
 
-    $('.mapAdress').click(function (event) {
-        console.log('dfhjs');
-        var thisis = $(this).attr('id');
-        var templateDir = "/img/favicon/png_fav.png";
-        var templateDir1 = "/img/favicon/flag-green.png";
-        var chefs = [
-            {
-                id: "1",
-                name: "Катерина Константиновна",
-                latitude: 47.827558,
-                longitude: 35.1609022,
-                adress: "пр.Соборный,102",
-                link: "/chef-card.html"
-               
-            },
-            {
-                id: "2",
-                name: "Константин Констанинопольский",
-                latitude: 47.8199447,
-                longitude: 35.1700849,
-                adress: "пр.Соборный,85",
-                link: "/chef-card.html"
+    $('.favorite ').click(function (event) {
+        if(event.target.className == "mapAdress"){
+            var thisis = $(event.target).attr('id');
+            $('.form-sec').removeClass("formShow");
+            $('.serv-map').addClass('formShow1');
 
-            },
-            {
-                id: "3",
-                name: "Джеки Чак",
-                latitude: 47.818412,
-                longitude: 35.1723803,
-                adress: "пр.Соборный,65",
-                link: "/chef-card.html",
-                food: ["рис по флотски", "карась под шубой"]
-            },
-            {
-                id: "4",
-                name: "Арнольд Шварцнегер ",
-                latitude: 47.808126,
-                longitude: 35.1843108,
-                adress: "пр.Соборный,102",
-                link: "/chef-card.html",
-                food: ["отбивные по почкам", "гуляш по коридору"]
-            },
-            {
-                id: "5",
-                name: "Арнольд Шварцнегер ",
-                latitude: 47.808126,
-                longitude: 35.1843108,
-                adress: "пр.Соборный,102",
-                link: "/chef-card.html",
-                food: ["отбивные по почкам", "гуляш по коридору"]
+        };
+        $('.serv-map').click(function (e) {
+            if ( e.target.classList[0] == "form-sec" ){
+                $('.serv-map').removeClass('formShow1');
             }
-        ];
-        function activeMap() {
-            console.log('ghf');
-            var centLat = 0;
-            var centLon = 0;
+        })
+            var templateDir = "/img/favicon/png_fav.png";
+            var templateDir1 = "/img/favicon/flag-green.png";
+            var chefs = [
+                {
+                    id: "1",
+                    name: "Катерина Константиновна",
+                    latitude: 47.827558,
+                    longitude: 35.1609022,
+                    adress: "пр.Соборный,102",
+                    link: "/chef-card.html"
 
-            chefs.forEach(function (item) {
-                centLat += item.latitude;
-                centLon += item.longitude;
-            })
-            var element = document.getElementById('map');
+                },
+                {
+                    id: "2",
+                    name: "Константин Констанинопольский",
+                    latitude: 47.8199447,
+                    longitude: 35.1700849,
+                    adress: "пр.Соборный,85",
+                    link: "/chef-card.html"
 
-            var icon = {
-                url: templateDir,
-                scaledSize: new google.maps.Size(60, 60)
-            };
+                },
+                {
+                    id: "3",
+                    name: "Джеки Чак",
+                    latitude: 47.818412,
+                    longitude: 35.1723803,
+                    adress: "пр.Соборный,65",
+                    link: "/chef-card.html",
+                    food: ["рис по флотски", "карась под шубой"]
+                },
+                {
+                    id: "4",
+                    name: "Арнольд Шварцнегер ",
+                    latitude: 47.808126,
+                    longitude: 35.1843108,
+                    adress: "пр.Соборный,102",
+                    link: "/chef-card.html",
+                    food: ["отбивные по почкам", "гуляш по коридору"]
+                },
+                {
+                    id: "5",
+                    name: "Арнольд Шварцнегер ",
+                    latitude: 47.808126,
+                    longitude: 35.1843108,
+                    adress: "пр.Соборный,102",
+                    link: "/chef-card.html",
+                    food: ["отбивные по почкам", "гуляш по коридору"]
+                }
+            ];
+            function activeMap() {
+                console.log('ghf');
+                var centLat = 0;
+                var centLon = 0;
+
+                chefs.forEach(function (item) {
+                    centLat += item.latitude;
+                    centLon += item.longitude;
+                })
+                var element = document.getElementById('map');
+
+                var icon = {
+                    url: templateDir,
+                    scaledSize: new google.maps.Size(60, 60)
+                };
 
 
 
-            var myMap;
+                var myMap;
 
-            function addMarker(props) {
-                var marker = new google.maps.Marker({
-                    position: props.latlng,
-                    map: myMap,
-                    icon: icon,
-                    animation: google.maps.Animation.DROP
-                });
-                var infowindow = new google.maps.InfoWindow({
-                    content: props.info
-                });
-                marker.addListener('click', function () {
-                    infowindow.open(myMap, marker);
-                });
-            }
-
-            chefs.forEach(function (item, index) {
-
-
-                if( item.id == thisis){
-                    var info = '<a style="color: red;text-decoration: underline " href="' + item.link + '">'+item.name+'</a>'+"<br>"+""+item.adress+"";
-                    var options = {
-                        zoom: 18,
-                        scrollwheel: false,
-                        center: {lat: item.latitude, lng: item.longitude,}
-                    };
-                    myMap = new google.maps.Map(element, options, icon);
-                    addMarker({
-                        latlng: {lat: item.latitude, lng: item.longitude},
-                        info: info,
+                function addMarker(props) {
+                    var marker = new google.maps.Marker({
+                        position: props.latlng,
+                        map: myMap,
+                        icon: icon,
+                        animation: google.maps.Animation.DROP
+                    });
+                    var infowindow = new google.maps.InfoWindow({
+                        content: props.info
+                    });
+                    marker.addListener('click', function () {
+                        infowindow.open(myMap, marker);
                     });
                 }
 
-            })
+                chefs.forEach(function (item, index) {
 
 
-        }
-        activeMap();
+                    if( item.id == thisis){
+                        var info = '<a style="color: red;text-decoration: underline " href="' + item.link + '">'+item.name+'</a>'+"<br>"+""+item.adress+"";
+                        var options = {
+                            zoom: 18,
+                            scrollwheel: false,
+                            center: {lat: item.latitude, lng: item.longitude,}
+                        };
+                        myMap = new google.maps.Map(element, options, icon);
+                        addMarker({
+                            latlng: {lat: item.latitude, lng: item.longitude},
+                            info: info,
+                        });
+                    }
+
+                })
+
+
+            }
+            activeMap();
+
+
 
         event.preventDefault();
     })
@@ -238,16 +239,23 @@ $(document).ready(function( ) {
     });
 
     function showForm(button, form , addclass) {
-        $(button).click(function () {
+        $(button).click(function (e) {
 $('.form-sec').removeClass("formShow");
             $(form).addClass(addclass);
-            return false;
+            e.preventDefault();
         })
         $(form).click(function (e) {
             if ( e.target.classList[0] == "form-sec" ){
                 $(form).removeClass(addclass);
             }
         })
+    }
+    function showForm(button, form , addclass) {
+        $('.mapAdress').click(function (e) {
+
+            e.preventDefault();
+        })
+
     }
     showForm('.mapAdress', '.serv-map', 'formShow1' );
     showForm('.chef-b', '.chef', 'formShow' );
@@ -540,7 +548,19 @@ $('.form-sec').removeClass("formShow");
 
     });
 /////////////////////////////////////////////
-    // count plus/minus
+    if($(".time1").length){
+        $(".time1").datetimepicker({
+            format: 'Y-m-d g:i a'
+        });
+    }
+
+    $(".productQuantity-box").click(function(e) {
+        var offset = $(this).offset();
+        var relativeX = (e.pageX - offset.left- $('.xdsoft_datetimepicker').width()/2);
+        var relativeY = (e.pageY - offset.top+50);
+        $('.xdsoft_datetimepicker').css({"top":relativeY, "left":relativeX});
+        console.log("X: " + relativeX + "  Y: " + relativeY);
+    });
 })
 /////////////////////////////acrt///////////////////
 var taxRate = 0.05;

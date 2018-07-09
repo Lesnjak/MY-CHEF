@@ -1,37 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/sass/_all-orders.scss" line="570" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/app/sass/_all-orders.scss" line="572" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef8a6073-1332-442f-a4ec-259c05c58985" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/_picker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sass/pagination.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/all.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cabinet.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/cabinet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/catalog-chef.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog-chef.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/map.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/map.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/common.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/datapicker/DateTimePicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/datapicker/bootstrap-datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/order-all-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/order-all-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/picker.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/picker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_all-orders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_all-orders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_head.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_head.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/search-result.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/search-result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,7 +42,7 @@
       <file leaf-file-name="order-all-steps.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/order-all-steps.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6732">
+            <state relative-caret-position="18">
               <caret line="374" column="124" selection-start-line="374" selection-start-column="119" selection-end-line="374" selection-end-column="124" />
             </state>
           </provider>
@@ -73,7 +51,7 @@
       <file leaf-file-name="picker.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/picker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
+            <state relative-caret-position="168">
               <caret line="29" selection-start-line="29" selection-end-line="39" selection-end-column="36" />
             </state>
           </provider>
@@ -82,20 +60,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="18">
               <caret line="28" column="108" selection-start-line="28" selection-start-column="108" selection-end-line="28" selection-end-column="108" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="90">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <marker date="1531129825342" expanded="true" signature="4101:9342" ph="..." />
+                <marker date="1531133301351" expanded="true" signature="4338:9731" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,17 +82,42 @@
       <file leaf-file-name="datetimepicker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="2977" lean-forward="true" selection-start-line="2977" selection-end-line="2977" />
+            <state relative-caret-position="375">
+              <caret line="2981" selection-start-line="2981" selection-end-line="2981" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_picker.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4022">
+              <caret line="979" column="37" selection-start-line="979" selection-start-column="37" selection-end-line="979" selection-end-column="37" />
+              <folding>
+                <element signature="e#3049#3057#1" expanded="true" />
+                <element signature="e#4748#4756#1" expanded="true" />
+                <element signature="e#4887#4895#1" expanded="true" />
+                <element signature="e#5022#5030#0" expanded="true" />
+                <marker date="1530865792822" expanded="true" signature="59197:59274" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_picker.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_picker.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            <state relative-caret-position="186">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_all-orders.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_all-orders.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="134" column="40" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -130,7 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>formShow</find>
       <find>responsive</find>
       <find>myLocation</find>
       <find>pagination-block</find>
@@ -141,7 +143,6 @@
       <find>datapicker</find>
       <find>datetimepicker</find>
       <find>append</find>
-      <find>date-time-box</find>
       <find>.add</find>
       <find>.append</find>
       <find>body</find>
@@ -159,6 +160,8 @@
       <find>top</find>
       <find>left</find>
       <find>datetimepickerCss</find>
+      <find>date-time-box</find>
+      <find>mapAdress</find>
       <find>click</find>
     </findStrings>
     <replaceStrings>
@@ -196,7 +199,6 @@
         <option value="$PROJECT_DIR$/app/sass/_portfolio.scss" />
         <option value="$PROJECT_DIR$/app/sass/_contacts.scss" />
         <option value="$PROJECT_DIR$/app/sass/_footer.scss" />
-        <option value="$PROJECT_DIR$/app/sass/_all-orders.scss" />
         <option value="$PROJECT_DIR$/app/sass/_servise.scss" />
         <option value="$PROJECT_DIR$/app/sass/_vars.scss" />
         <option value="$PROJECT_DIR$/app/contacts.html" />
@@ -226,9 +228,10 @@
         <option value="$PROJECT_DIR$/app/picker.html" />
         <option value="$PROJECT_DIR$/app/order-all-steps.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
-        <option value="$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js" />
         <option value="$PROJECT_DIR$/app/sass/_picker.scss" />
+        <option value="$PROJECT_DIR$/app/sass/_all-orders.scss" />
+        <option value="$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
       </list>
     </option>
   </component>
@@ -595,7 +598,7 @@
       <workItem from="1530773848189" duration="26252000" />
       <workItem from="1530860444302" duration="22841000" />
       <workItem from="1531118804780" duration="8523000" />
-      <workItem from="1531128812331" duration="1574000" />
+      <workItem from="1531128812331" duration="5684000" />
     </task>
     <task id="LOCAL-00001" summary="new1">
       <created>1510086949418</created>
@@ -818,7 +821,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1348860000" />
+    <option name="totallyTimeSpent" value="1352970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -831,13 +834,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" weight="0.03358209" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489339" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -851,7 +854,6 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -911,8 +913,14 @@
           <line>7</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/js/common.js</url>
+          <line>242</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -969,13 +977,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/telegramDownload/Modal.js" />
-    <entry file="file://$PROJECT_DIR$/app/sass/_all-orders.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="327" column="23" lean-forward="true" selection-start-line="327" selection-start-column="23" selection-end-line="327" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -1183,13 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17622">
-          <caret line="979" column="37" selection-start-line="979" selection-start-column="37" selection-end-line="979" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/t.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -1211,49 +1205,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_picker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_all-orders.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="134" column="40" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/order-all-steps.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6732">
+        <state relative-caret-position="18">
           <caret line="374" column="124" selection-start-line="374" selection-start-column="119" selection-end-line="374" selection-end-column="124" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/picker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
+        <state relative-caret-position="168">
           <caret line="29" selection-start-line="29" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="18">
           <caret line="28" column="108" selection-start-line="28" selection-start-column="108" selection-end-line="28" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4022">
+          <caret line="979" column="37" selection-start-line="979" selection-start-column="37" selection-end-line="979" selection-end-column="37" />
+          <folding>
+            <element signature="e#3049#3057#1" expanded="true" />
+            <element signature="e#4748#4756#1" expanded="true" />
+            <element signature="e#4887#4895#1" expanded="true" />
+            <element signature="e#5022#5030#0" expanded="true" />
+            <marker date="1530865792822" expanded="true" signature="59197:59274" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="2977" lean-forward="true" selection-start-line="2977" selection-end-line="2977" />
+        <state relative-caret-position="375">
+          <caret line="2981" selection-start-line="2981" selection-end-line="2981" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="90">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <marker date="1531129825342" expanded="true" signature="4101:9342" ph="..." />
+            <marker date="1531133301351" expanded="true" signature="4338:9731" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_picker.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
