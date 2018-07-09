@@ -1,5 +1,19 @@
 "use strict";
-jQuery(document).ready(function( $ ) {
+$(document).ready(function( ) {
+
+    $(".time1").datetimepicker({
+        format: 'Y-m-d g:i a'
+    });
+    $(".productQuantity-box").click(function(e) {
+        var offset = $(this).offset();
+        var relativeX = (e.pageX - offset.left- $('.xdsoft_datetimepicker').width()/2);
+        var relativeY = (e.pageY - offset.top+50);
+        $('.xdsoft_datetimepicker').css({"top":relativeY, "left":relativeX});
+        console.log("X: " + relativeX + "  Y: " + relativeY);
+    });
+
+
+
 
     $('.mapAdress').click(function (event) {
         console.log('dfhjs');
@@ -13,8 +27,8 @@ jQuery(document).ready(function( $ ) {
                 latitude: 47.827558,
                 longitude: 35.1609022,
                 adress: "пр.Соборный,102",
-                link: "/chef-card.html",
-                food: ["pure", "borsh"]
+                link: "/chef-card.html"
+               
             },
             {
                 id: "2",
@@ -22,8 +36,8 @@ jQuery(document).ready(function( $ ) {
                 latitude: 47.8199447,
                 longitude: 35.1700849,
                 adress: "пр.Соборный,85",
-                link: "/chef-card.html",
-                food: ["блины", "холодец"]
+                link: "/chef-card.html"
+
             },
             {
                 id: "3",
@@ -120,8 +134,9 @@ jQuery(document).ready(function( $ ) {
             localStorage.setItem('myLat', a.coords.latitude);
             localStorage.setItem('myLon', a.coords.longitude);
         });
+        var res = $(this).attr("data-src");
         setTimeout(function () {
-            window.location.href = "/"
+            window.location.href = res;
         },100);
 
         event.preventDefault();
@@ -136,8 +151,9 @@ jQuery(document).ready(function( $ ) {
         localStorage.setItem('myLat', "");
         localStorage.setItem('myLon', "");
         localStorage.setItem('findPlace', $("#newLocation").val());
+        var res = $(this).attr("data-src");
         setTimeout(function () {
-            window.location.href = "/"
+            window.location.href = res;
         },100)
     })
 
@@ -287,11 +303,11 @@ $('.form-sec').removeClass("formShow");
     });
 
     ///////////////////favorite-slider///////////
+
     $('.favorite-slider').slick({
         slidesToShow: 4,
         prevArrow:'<button class="prev"></button>',
         nextArrow:'<button class="next"></button>',
-        swipe: false,
         responsive: [
             {
                 breakpoint: 1400,
@@ -309,7 +325,7 @@ $('.form-sec').removeClass("formShow");
                 breakpoint: 993,
                 settings: {
                     slidesToShow: 2,
-                    swipe: false
+
                 }
             },
             {
@@ -328,7 +344,9 @@ $('.form-sec').removeClass("formShow");
             }
 
         ]
-    });
+    }).on('breakpoint', function () {
+        console.log('sdfsdfsd');
+    })
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     $('.big').slick({
         slidesToShow: 1,

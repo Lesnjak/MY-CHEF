@@ -785,4 +785,8 @@ h2{
 .pagination-box{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.continue .pagination-wrapper{
+  margin: 40px 0 40px auto;
 }

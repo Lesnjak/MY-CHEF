@@ -2,6 +2,7 @@
   background-color: #f6f6f6;
   .productQuantity-box{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    position: relative;
   }
 }
 
@@ -127,11 +128,13 @@ ul{
     background-position:center;
     border: 1px solid #e6e6e6;
     background-color: #fff;
+    transition: 0.3s;
 
   }
   &:hover:after{
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     background-image: url(../img/all-prod/calendar2.png);
+    opacity: 0;
   }
 }
       .dtpicker-buttonClear{
