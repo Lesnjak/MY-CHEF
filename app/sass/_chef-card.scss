@@ -1,6 +1,9 @@
 .chef-cart{
   background-color: #f6f6f6;
 }
+.favorite-content a{
+  display: block;
+}
 .name-rate{
   display: flex;
   align-items: center;
@@ -106,7 +109,9 @@
     display: flex;
 .favorite-content{
   padding: 20px 30px;
+
 }
+
     .prize{
       display: flex;
       flex-wrap: wrap;

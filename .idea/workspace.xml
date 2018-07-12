@@ -2,14 +2,17 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/app/sass/_all-orders.scss" line="572" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef8a6073-1332-442f-a4ec-259c05c58985" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/common.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_chef-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_chef-card.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,7 +45,7 @@
       <file leaf-file-name="order-all-steps.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/order-all-steps.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="6732">
               <caret line="374" column="124" selection-start-line="374" selection-start-column="119" selection-end-line="374" selection-end-column="124" />
             </state>
           </provider>
@@ -51,17 +54,8 @@
       <file leaf-file-name="picker.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/picker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="522">
               <caret line="29" selection-start-line="29" selection-end-line="39" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="28" column="108" selection-start-line="28" selection-start-column="108" selection-end-line="28" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -69,12 +63,31 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            <state relative-caret-position="-144">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <marker date="1531133301351" expanded="true" signature="4338:9731" ph="..." />
+                <marker date="1531314412100" expanded="true" signature="4262:4290" ph="..." />
+                <marker date="1531314412100" expanded="true" signature="4301:9694" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_chef-card.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/_chef-card.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -82,8 +95,8 @@
       <file leaf-file-name="datetimepicker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="2981" selection-start-line="2981" selection-end-line="2981" />
+            <state relative-caret-position="-113">
+              <caret line="1921" column="30" lean-forward="true" selection-start-line="1921" selection-start-column="30" selection-end-line="1921" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -91,14 +104,14 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4022">
-              <caret line="979" column="37" selection-start-line="979" selection-start-column="37" selection-end-line="979" selection-end-column="37" />
+            <state relative-caret-position="197">
+              <caret line="392" column="78" selection-start-line="392" selection-start-column="78" selection-end-line="392" selection-end-column="78" />
               <folding>
                 <element signature="e#3049#3057#1" expanded="true" />
                 <element signature="e#4748#4756#1" expanded="true" />
                 <element signature="e#4887#4895#1" expanded="true" />
                 <element signature="e#5022#5030#0" expanded="true" />
-                <marker date="1530865792822" expanded="true" signature="59197:59274" ph="..." />
+                <marker date="1531309524598" expanded="true" signature="59235:59312" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,7 +120,7 @@
       <file leaf-file-name="_picker.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_picker.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="522">
               <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
             </state>
           </provider>
@@ -116,7 +129,7 @@
       <file leaf-file-name="_all-orders.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_all-orders.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="2412">
               <caret line="134" column="40" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="40" />
             </state>
           </provider>
@@ -133,16 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>responsive</find>
-      <find>myLocation</find>
-      <find>pagination-block</find>
-      <find>pagination-box</find>
-      <find>.search-button</find>
-      <find>findPlace</find>
-      <find>pagi</find>
-      <find>datapicker</find>
-      <find>datetimepicker</find>
-      <find>append</find>
       <find>.add</find>
       <find>.append</find>
       <find>body</find>
@@ -153,7 +156,6 @@
       <find>change-date</find>
       <find>absolute</find>
       <find>opt2</find>
-      <find>xdsoft_datetimepicker</find>
       <find>pm</find>
       <find>paren</find>
       <find>time1</find>
@@ -161,8 +163,19 @@
       <find>left</find>
       <find>datetimepickerCss</find>
       <find>date-time-box</find>
-      <find>mapAdress</find>
       <find>click</find>
+      <find>mapAdress</find>
+      <find>prevent</find>
+      <find>favorite-content</find>
+      <find>return false</find>
+      <find>stop</find>
+      <find>minDate</find>
+      <find>minTime</find>
+      <find>pAREN</find>
+      <find>DATE</find>
+      <find>xdsoft_datetimepicker</find>
+      <find>css</find>
+      <find>CSS</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -181,11 +194,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/libs/datapicker/js/bootstrap-datetimepicker.min.js" />
         <option value="$PROJECT_DIR$/node_modules/jquery-datetimepicker/index.html" />
         <option value="$USER_HOME$/Desktop/Responsive-User-friendly-Datetime-Picker-jQuery-DateTimePicker/index.html" />
         <option value="$PROJECT_DIR$/app/sass/_blog.scss" />
-        <option value="$PROJECT_DIR$/app/sass/_chef-card.scss" />
         <option value="$PROJECT_DIR$/app/libs/datapicker/DateTimePicker.js" />
         <option value="$PROJECT_DIR$/app/sass/_datapicker.scss" />
         <option value="$PROJECT_DIR$/app/libs/datapicker/DateTimePicker.css" />
@@ -217,7 +228,6 @@
         <option value="$PROJECT_DIR$/app/js/map.js" />
         <option value="$PROJECT_DIR$/app/sass/_head.scss" />
         <option value="$PROJECT_DIR$/app/libs/slick-master/slick/slick.js" />
-        <option value="$PROJECT_DIR$/app/main.html" />
         <option value="$PROJECT_DIR$/app/sass/index.html" />
         <option value="$PROJECT_DIR$/app/blog.html" />
         <option value="$PROJECT_DIR$/app/sass/_catalog.scss" />
@@ -230,6 +240,9 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/sass/_picker.scss" />
         <option value="$PROJECT_DIR$/app/sass/_all-orders.scss" />
+        <option value="$USER_HOME$/Desktop/app/index.html" />
+        <option value="$PROJECT_DIR$/app/sass/_chef-card.scss" />
+        <option value="$PROJECT_DIR$/app/main.html" />
         <option value="$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
       </list>
@@ -259,11 +272,11 @@
     </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2031" />
-    <option name="y" value="-20" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1927" />
+    <option name="y" value="2" />
+    <option name="width" value="1932" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -349,7 +362,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../allProgects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -598,7 +611,10 @@
       <workItem from="1530773848189" duration="26252000" />
       <workItem from="1530860444302" duration="22841000" />
       <workItem from="1531118804780" duration="8523000" />
-      <workItem from="1531128812331" duration="5684000" />
+      <workItem from="1531128812331" duration="5942000" />
+      <workItem from="1531222764137" duration="610000" />
+      <workItem from="1531291432569" duration="15000" />
+      <workItem from="1531305936038" duration="8832000" />
     </task>
     <task id="LOCAL-00001" summary="new1">
       <created>1510086949418</created>
@@ -821,7 +837,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1352970000" />
+    <option name="totallyTimeSpent" value="1362685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,10 +849,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1927" y="2" width="1932" height="1045" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" weight="0.03358209" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25747862" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
@@ -844,7 +861,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36212623" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.36659193" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -859,21 +876,21 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.03358209" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24626866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25747862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.36212623" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36659193" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -915,8 +932,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/js/common.js</url>
-          <line>242</line>
-          <properties lambdaOrdinal="-1" />
+          <line>241</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -924,8 +940,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/bootstrap-datetimepicker-master/sample in bootstrap v2/index.html" />
-    <entry file="file://$USER_HOME$/Desktop/bootstrap-datetimepicker-master/sample in bootstrap v3/index.html" />
     <entry file="file://$PROJECT_DIR$/app/libs/datapicker/bootstrap-datetimepicker.ru.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1207,67 +1221,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_picker.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="522">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_all-orders.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
+        <state relative-caret-position="2412">
           <caret line="134" column="40" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/order-all-steps.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="6732">
           <caret line="374" column="124" selection-start-line="374" selection-start-column="119" selection-end-line="374" selection-end-column="124" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/picker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="522">
           <caret line="29" selection-start-line="29" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="504">
           <caret line="28" column="108" selection-start-line="28" selection-start-column="108" selection-end-line="28" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_chef-card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4022">
-          <caret line="979" column="37" selection-start-line="979" selection-start-column="37" selection-end-line="979" selection-end-column="37" />
+        <state relative-caret-position="197">
+          <caret line="392" column="78" selection-start-line="392" selection-start-column="78" selection-end-line="392" selection-end-column="78" />
           <folding>
             <element signature="e#3049#3057#1" expanded="true" />
             <element signature="e#4748#4756#1" expanded="true" />
             <element signature="e#4887#4895#1" expanded="true" />
             <element signature="e#5022#5030#0" expanded="true" />
-            <marker date="1530865792822" expanded="true" signature="59197:59274" ph="..." />
+            <marker date="1531309524598" expanded="true" signature="59235:59312" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/datapicker/datetimepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="2981" selection-start-line="2981" selection-end-line="2981" />
+        <state relative-caret-position="-113">
+          <caret line="1921" column="30" lean-forward="true" selection-start-line="1921" selection-start-column="30" selection-end-line="1921" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="-144">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <marker date="1531133301351" expanded="true" signature="4338:9731" ph="..." />
+            <marker date="1531314412100" expanded="true" signature="4262:4290" ph="..." />
+            <marker date="1531314412100" expanded="true" signature="4301:9694" ph="..." />
           </folding>
         </state>
       </provider>

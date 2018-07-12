@@ -67,7 +67,6 @@ $(document).ready(function( ) {
                 }
             ];
             function activeMap() {
-                console.log('ghf');
                 var centLat = 0;
                 var centLon = 0;
 
@@ -126,7 +125,7 @@ $(document).ready(function( ) {
 
 
 
-        event.preventDefault();
+       event.preventDefault();
     })
 
     $(".myLocation").click(function (event) {
@@ -352,8 +351,6 @@ $('.form-sec').removeClass("formShow");
             }
 
         ]
-    }).on('breakpoint', function () {
-        console.log('sdfsdfsd');
     })
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     $('.big').slick({
@@ -548,9 +545,14 @@ $('.form-sec').removeClass("formShow");
 
     });
 /////////////////////////////////////////////
+
     if($(".time1").length){
         $(".time1").datetimepicker({
-            format: 'Y-m-d g:i a'
+            minTime:0,
+            allowTimes:[
+                '12:00', '13:00', '15:00',
+                '17:00','19:00', '20:00'
+            ]
         });
     }
 
