@@ -239,9 +239,10 @@ $(document).ready(function( ) {
 
     function showForm(button, form , addclass) {
         $(button).click(function (e) {
-$('.form-sec').removeClass("formShow");
+
+         $('.form-sec').removeClass("formShow");
             $(form).addClass(addclass);
-            e.preventDefault();
+            return false;
         })
         $(form).click(function (e) {
             if ( e.target.classList[0] == "form-sec" ){
@@ -249,13 +250,7 @@ $('.form-sec').removeClass("formShow");
             }
         })
     }
-    function showForm(button, form , addclass) {
-        $('.mapAdress').click(function (e) {
 
-            e.preventDefault();
-        })
-
-    }
     showForm('.mapAdress', '.serv-map', 'formShow1' );
     showForm('.chef-b', '.chef', 'formShow' );
     showForm('.serv-b', '.serv', 'formShow' );
